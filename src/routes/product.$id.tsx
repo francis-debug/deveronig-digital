@@ -107,12 +107,30 @@ function ProductPage() {
             <Perk icon={RotateCcw} title="Easy Returns" desc="7-day policy" />
           </ul>
 
-          <div className="mt-6">
-            <h2 className="text-base font-semibold text-foreground">Description</h2>
-            <p className="mt-2 text-sm text-muted-foreground">
-              {product.description ??
-                `Genuine ${product.brand ?? ""} ${product.title} sourced directly from authorized distributors. Backed by our standard warranty and supported by our local team. Order online or via WhatsApp — pay on delivery available within Nairobi.`}
-            </p>
+          <div className="mt-6 flex flex-col gap-4">
+            <div className="flex gap-3">
+              <button
+                onClick={() => add(product, qty)}
+                className="flex-1 inline-flex h-12 items-center justify-center gap-2 rounded-full bg-primary text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 active:scale-[0.98]"
+              >
+                <ShoppingCart className="h-5 w-5" /> Add to Cart
+              </button>
+              <a
+                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${waMsg}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 inline-flex h-12 items-center justify-center gap-2 rounded-full bg-whatsapp text-sm font-semibold text-whatsapp-foreground transition-all hover:bg-whatsapp/90"
+              >
+                <WhatsAppIcon className="h-5 w-5" /> Order on WhatsApp
+              </a>
+            </div>
+            <div>
+              <h2 className="text-base font-semibold text-foreground">Description</h2>
+              <p className="mt-2 text-sm text-muted-foreground">
+                {product.description ??
+                  `Genuine ${product.brand ?? ""} ${product.title} sourced directly from authorized distributors. Backed by our standard warranty and supported by our local team. Order online or via WhatsApp — pay on delivery available within Nairobi.`}
+              </p>
+            </div>
           </div>
         </div>
       </div>
