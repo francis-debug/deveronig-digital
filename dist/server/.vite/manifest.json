@@ -1,0 +1,239 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/franc/Downloads/kenya-electrify-main/kenya-electrify-main/src/styles.css": {
+    "file": "assets/styles-BkcDYrk0.css",
+    "src": "C:/Users/franc/Downloads/kenya-electrify-main/kenya-electrify-main/src/styles.css"
+  },
+  "_PageShell-Ck9GCvGO.js": {
+    "file": "assets/PageShell-Ck9GCvGO.js",
+    "name": "PageShell",
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_WhatsAppFab-DWyTIUMH.js"
+    ]
+  },
+  "_WhatsAppFab-DWyTIUMH.js": {
+    "file": "assets/WhatsAppFab-DWyTIUMH.js",
+    "name": "WhatsAppFab",
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_router-C8Caq8Dv.js"
+    ],
+    "assets": [
+      "assets/logo-BsN7ZuCi.png"
+    ]
+  },
+  "_plus-C0NRyBFZ.js": {
+    "file": "assets/plus-C0NRyBFZ.js",
+    "name": "plus",
+    "imports": [
+      "_WhatsAppFab-DWyTIUMH.js"
+    ]
+  },
+  "_router-C8Caq8Dv.js": {
+    "file": "assets/router-C8Caq8Dv.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js"
+    ],
+    "dynamicImports": [
+      "src/routes/checkout.tsx?tsr-split=component",
+      "src/routes/categories.tsx?tsr-split=component",
+      "src/routes/cart.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component",
+      "src/routes/product.$id.tsx?tsr-split=component",
+      "src/routes/product.$id.tsx?tsr-split=errorComponent",
+      "src/routes/product.$id.tsx?tsr-split=notFoundComponent",
+      "src/routes/category.$slug.tsx?tsr-split=component",
+      "src/routes/category.$slug.tsx?tsr-split=errorComponent",
+      "src/routes/category.$slug.tsx?tsr-split=notFoundComponent"
+    ],
+    "assets": [
+      "assets/styles-BkcDYrk0.css"
+    ]
+  },
+  "_worker-entry-DCEh5kpX.js": {
+    "file": "assets/worker-entry-DCEh5kpX.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-C8Caq8Dv.js",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-HYkvq4Ni.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "src/assets/banner-1.png": {
+    "file": "assets/banner-1-DHaFXqdi.png",
+    "src": "src/assets/banner-1.png"
+  },
+  "src/assets/banner-2.png": {
+    "file": "assets/banner-2-C3MvY-AK.png",
+    "src": "src/assets/banner-2.png"
+  },
+  "src/assets/banner-3.png": {
+    "file": "assets/banner-3-qmxNn02M.png",
+    "src": "src/assets/banner-3.png"
+  },
+  "src/assets/banner-4.png": {
+    "file": "assets/banner-4-CFS0TMrF.png",
+    "src": "src/assets/banner-4.png"
+  },
+  "src/assets/logo.png": {
+    "file": "assets/logo-BsN7ZuCi.png",
+    "src": "src/assets/logo.png"
+  },
+  "src/routes/cart.tsx?tsr-split=component": {
+    "file": "assets/cart-DTk4qn5M.js",
+    "name": "cart",
+    "src": "src/routes/cart.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_router-C8Caq8Dv.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_plus-C0NRyBFZ.js"
+    ]
+  },
+  "src/routes/categories.tsx?tsr-split=component": {
+    "file": "assets/categories-BSDH0aAw.js",
+    "name": "categories",
+    "src": "src/routes/categories.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_router-C8Caq8Dv.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js"
+    ]
+  },
+  "src/routes/category.$slug.tsx?tsr-split=component": {
+    "file": "assets/category._slug-CZbBEjx0.js",
+    "name": "category._slug",
+    "src": "src/routes/category.$slug.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_router-C8Caq8Dv.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js"
+    ]
+  },
+  "src/routes/category.$slug.tsx?tsr-split=errorComponent": {
+    "file": "assets/category._slug-CYQPJdmC.js",
+    "name": "category._slug",
+    "src": "src/routes/category.$slug.tsx?tsr-split=errorComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_router-C8Caq8Dv.js"
+    ]
+  },
+  "src/routes/category.$slug.tsx?tsr-split=notFoundComponent": {
+    "file": "assets/category._slug-auu8hVjz.js",
+    "name": "category._slug",
+    "src": "src/routes/category.$slug.tsx?tsr-split=notFoundComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_router-C8Caq8Dv.js"
+    ]
+  },
+  "src/routes/checkout.tsx?tsr-split=component": {
+    "file": "assets/checkout--Tvy_rnq.js",
+    "name": "checkout",
+    "src": "src/routes/checkout.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_router-C8Caq8Dv.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CZqZ36W7.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_router-C8Caq8Dv.js"
+    ],
+    "assets": [
+      "assets/banner-1-DHaFXqdi.png",
+      "assets/banner-2-C3MvY-AK.png",
+      "assets/banner-3-qmxNn02M.png",
+      "assets/banner-4-CFS0TMrF.png"
+    ]
+  },
+  "src/routes/product.$id.tsx?tsr-split=component": {
+    "file": "assets/product._id-CgtRm3yK.js",
+    "name": "product._id",
+    "src": "src/routes/product.$id.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_router-C8Caq8Dv.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_plus-C0NRyBFZ.js"
+    ]
+  },
+  "src/routes/product.$id.tsx?tsr-split=errorComponent": {
+    "file": "assets/product._id-BFQVqvRZ.js",
+    "name": "product._id",
+    "src": "src/routes/product.$id.tsx?tsr-split=errorComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_router-C8Caq8Dv.js"
+    ]
+  },
+  "src/routes/product.$id.tsx?tsr-split=notFoundComponent": {
+    "file": "assets/product._id-CAVJ50LS.js",
+    "name": "product._id",
+    "src": "src/routes/product.$id.tsx?tsr-split=notFoundComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js",
+      "_PageShell-Ck9GCvGO.js",
+      "_WhatsAppFab-DWyTIUMH.js",
+      "_router-C8Caq8Dv.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-BoqXgort.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-DCEh5kpX.js"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+import{j as o}from"./index-CbBPahOW.js";import{P as t}from"./PageShell-DmQHxbR2.js";import"./WhatsAppFab-m3yiM8hr.js";const p=()=>o.jsx(t,{children:o.jsx("p",{children:"Category not found."})});export{p as notFoundComponent};

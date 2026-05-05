@@ -1,0 +1,1 @@
+import{j as o}from"./index-CbBPahOW.js";import{P as e}from"./PageShell-DmQHxbR2.js";import"./WhatsAppFab-m3yiM8hr.js";const m=({error:r})=>o.jsx(e,{children:o.jsxs("p",{children:["Something went wrong: ",r.message]})});export{m as errorComponent};
